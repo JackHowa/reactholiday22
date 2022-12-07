@@ -16,3 +16,13 @@ info  - Thank you for testing `appDir` please leave your feedback at https://nex
 ```
 
 `app` directory requires node 16.
+
+# Day 2
+
+Interesting that co-location is the top feature. This seems to be one of the many back-and-forth trends.
+
+> The idea is straight forward. Any file in the /pages directory becomes a page in the app.
+>
+> But this poses a problem. You can't easy co-locate supporting modules in the /pages directory.
+
+Looks like it's framed as trying to reduce magic via [explicit programming](https://www.cloudbees.com/blog/what-is-the-difference-between-implicit-vs-explicit-programming). This feels like a departure from the rails conventions that are seen as a benefit.
