@@ -26,3 +26,11 @@ Interesting that co-location is the top feature. This seems to be one of the man
 > But this poses a problem. You can't easy co-locate supporting modules in the /pages directory.
 
 Looks like it's framed as trying to reduce magic via [explicit programming](https://www.cloudbees.com/blog/what-is-the-difference-between-implicit-vs-explicit-programming). This feels like a departure from the rails conventions that are seen as a benefit.
+
+# Day 3
+
+Cool that the pages are by default on the server as server components. But surprisingly, this console did not show up in the turborepo console using `next dev --turbo`.
+
+Surprising that the `log` using `"use client"` is showing up in the server and the client console. I thought the server console would then be empty.
+
+I like that it shows incremental compiles `wait  - compiling /about/page (client and server)...`.
