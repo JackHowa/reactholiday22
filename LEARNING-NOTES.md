@@ -34,3 +34,13 @@ Cool that the pages are by default on the server as server components. But surpr
 Surprising that the `log` using `"use client"` is showing up in the server and the client console. I thought the server console would then be empty.
 
 I like that it shows incremental compiles `wait  - compiling /about/page (client and server)...`.
+
+react server components limits (via [react rfc](https://github.com/reactjs/rfcs/blob/main/text/0188-server-components.md#capabilities--constraints-of-server-and-client-components)):
+
+> ❌ May not use state, because they execute (conceptually) only once per request, on the server. So useState() and useReducer() are > not supported.
+> ❌ May not use rendering lifecycle (effects). So useEffect() and useLayoutEffect() are not supported.
+> ❌ May not use browser-only APIs such as the DOM (unless you polyfill them on the server).
+> ❌ May not use custom hooks that depend on state or effects, or utility functions that depend on browser-only APIs.
+> ✅ May use async / await with server-only data sources such as databases, internal (micro)services, filesystems, etc.
+> ✅ May render other Server Components, native elements (div, span, etc), or Client Components.
+> Server Hooks/Utilities: Developers may also create custom hooks or utility libraries that are designed for the server. All of the rules for Server Components apply. For example, one use-case for server hooks is to provide helpers for accessing server-side data sources.
