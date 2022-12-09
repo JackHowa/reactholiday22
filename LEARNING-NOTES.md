@@ -44,3 +44,20 @@ react server components limits (via [react rfc](https://github.com/reactjs/rfcs/
 > ✅ May use async / await with server-only data sources such as databases, internal (micro)services, filesystems, etc.
 > ✅ May render other Server Components, native elements (div, span, etc), or Client Components.
 > Server Hooks/Utilities: Developers may also create custom hooks or utility libraries that are designed for the server. All of the rules for Server Components apply. For example, one use-case for server hooks is to provide helpers for accessing server-side data sources.
+
+# Day 4
+
+Looks like handling the head of the page has been considered. Definitely wish this existed at previous jobs.
+
+Can construct the header on the server-side via a `head.jsx` file.
+
+The `head.jsx` is relative to the directory with the `page.jsx` file.
+
+Good to keep in mind:
+
+> head.js should return a React fragment component and not a wrapping <head> tag.
+> head.js should only return to the following tags: <title>, <meta>, <link> (with the precedence attribute) or <script> (with the async attribute). Learn more about the supported head tags
+
+It's helpful that there's shared info: https://beta.nextjs.org/docs/api-reference/file-conventions/head#sharing-tags-across-multiple-routes
+
+> Nested head.js files do not inherit or merge tags from head.js files higher up in the tree. This means, if a tag is not returned in the currently selected head.js file, it will not be rendered in the document's <head> element.
