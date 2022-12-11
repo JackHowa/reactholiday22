@@ -61,3 +61,14 @@ Good to keep in mind:
 It's helpful that there's shared info: https://beta.nextjs.org/docs/api-reference/file-conventions/head#sharing-tags-across-multiple-routes
 
 > Nested head.js files do not inherit or merge tags from head.js files higher up in the tree. This means, if a tag is not returned in the currently selected head.js file, it will not be rendered in the document's <head> element.
+
+# Day 5
+
+Calling out big templates in ember ha:
+
+> As an app becomes more complex, layout files find one of two popular anti-patterns:
+>
+> - A single structure with lots of conditional statements
+> - Lots of files duplicating a single (mostly similar) structure
+
+`layout.jsx` renders around their nested `page.jsx` file, and subsequent `page.jsx` files can be nested.
