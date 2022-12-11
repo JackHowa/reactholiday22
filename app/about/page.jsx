@@ -6,6 +6,7 @@ export default function About() {
 		<div>
 			<h1>About Me</h1>
 			<p>{ABOUT_ME}</p>
+			<a href="/about/more-about-me">More</a>
 		</div>
 	);
 }
