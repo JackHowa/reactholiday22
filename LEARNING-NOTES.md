@@ -72,3 +72,13 @@ Calling out big templates in ember ha:
 > - Lots of files duplicating a single (mostly similar) structure
 
 `layout.jsx` renders around their nested `page.jsx` file, and subsequent `page.jsx` files can be nested.
+
+# Day 6
+
+Route groups are cosmetic organization rather than by url using parenthesis. But they can also be used to share layouts between routes.
+
+Good to not mess-up (docs)[https://beta.nextjs.org/docs/routing/defining-routes#example-creating-multiple-root-layouts]:
+
+> Routes inside route groups should not resolve to the same URL path. For example, since route groups don't affect URL structure, (marketing)/about/page.js and (shop)/about/page.js would both resolve to /about and cause an error.
+
+Kind of trippy to share layouts by route groups rather than by specific routes. In this way, I guess you can theme the app by route group and reduce duplication.

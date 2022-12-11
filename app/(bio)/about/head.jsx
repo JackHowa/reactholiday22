@@ -1,4 +1,4 @@
-import DefaultTags from "../DefaultTags";
+import DefaultTags from "../../DefaultTags";
 
 export default function AboutHead() {
 	return (

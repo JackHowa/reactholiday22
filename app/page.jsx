@@ -23,6 +23,13 @@ export default function Home() {
             <p>Follow along.</p>
           </a>
         </div>
+
+        <div className={styles.grid}>
+          <a href="/social-links" className={styles.card}>
+            <h2>Find More Of My Stuff</h2>
+            <p>This has links to my social links.</p>
+          </a>
+          </div>
       </main>
 
       <footer className={styles.footer}>
