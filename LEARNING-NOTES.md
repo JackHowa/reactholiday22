@@ -82,3 +82,11 @@ Good to not mess-up (docs)[https://beta.nextjs.org/docs/routing/defining-routes#
 > Routes inside route groups should not resolve to the same URL path. For example, since route groups don't affect URL structure, (marketing)/about/page.js and (shop)/about/page.js would both resolve to /about and cause an error.
 
 Kind of trippy to share layouts by route groups rather than by specific routes. In this way, I guess you can theme the app by route group and reduce duplication.
+
+# Day 7
+
+Summary video: https://www.youtube.com/watch?v=zdyftlnWm-E
+
+Good summary of what's done before as a catch-up on `head.jsx`, `page.jsx`, `layout.jsx`, and `(route-groups)`. Also, talked about the difference between server and client components. All of these conventions are within the experimental `app` directory.
+
+Also, didn't realize in vs code that you can write a nested page with its folder name: `folder-name/page-name.jsx`.
