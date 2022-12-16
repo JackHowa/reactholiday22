@@ -123,3 +123,11 @@ Errors! Looks like there's a new `error.jsx` file that can be used to customize 
 Nice, in next, you get a popup for an error too in the bottom right I assume in dev mode.
 
 Useful site for testing: https://httpstat.us/
+
+# Day 11
+
+You can log out more information than just `digest` hash of the error message with useEffect: https://beta.nextjs.org/docs/routing/error-handling#handling-server-errors
+
+The reset param taken into the error component by default is useful.
+
+# Day 12
