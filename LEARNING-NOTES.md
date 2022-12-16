@@ -115,3 +115,11 @@ await new Promise((resolve) => setTimeout(resolve, 1000));
 ```
 
 Nice, didn't need to setup suspense or lots of wrapping.
+
+# Day 10
+
+Errors! Looks like there's a new `error.jsx` file that can be used to customize the error page for that particular route. Needs to be client-side.
+
+Nice, in next, you get a popup for an error too in the bottom right I assume in dev mode.
+
+Useful site for testing: https://httpstat.us/

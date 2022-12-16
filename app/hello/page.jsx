@@ -5,6 +5,10 @@ export default async function HelloPage() {
 	const req = await fetch('http://localhost:3000/api/hello');
 	const res = await req.json();
 
+	// force a server error
+	// const req = await fetch('https//httpstat.us/500');
+	// const res = await req.json();
+
 	// process the loading state
 	await new Promise((resolve) => setTimeout(resolve, 1000));
 	
