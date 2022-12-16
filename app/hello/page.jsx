@@ -4,5 +4,9 @@ export default async function HelloPage() {
 	// I suppose because that's because this is on the server
 	const req = await fetch('http://localhost:3000/api/hello');
 	const res = await req.json();
+
+	// process the loading state
+	await new Promise((resolve) => setTimeout(resolve, 1000));
+	
 	return <div>Hello {res.name}</div>;
 }

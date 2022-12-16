@@ -100,3 +100,18 @@ Looks fairly isolated to test. Cool. So only absolute urls are allowed. Initiall
 In the default page, there's an pages/api/hello.js that gets automatically updated.
 
 https://beta.nextjs.org/docs/data-fetching/fundamentals
+
+# Day 9
+
+Right, the bane of existence of react dev existence: `isLoading`.
+
+> there's a new, special file named loading.jsx.
+
+Lol you can actually slow down the whole page:
+
+```js
+// process the loading state
+await new Promise((resolve) => setTimeout(resolve, 1000));
+```
+
+Nice, didn't need to setup suspense or lots of wrapping.
