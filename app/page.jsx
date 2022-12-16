@@ -29,7 +29,13 @@ export default function Home() {
             <h2>Find More Of My Stuff</h2>
             <p>This has links to my social links.</p>
           </a>
-          </div>
+        </div>
+        <div className={styles.grid}>
+          <a href="/hello" className={styles.card}>
+            <h2>See async fetch component</h2>
+            <p>This uses an async data-fetching.</p>
+          </a>
+        </div>
       </main>
 
       <footer className={styles.footer}>

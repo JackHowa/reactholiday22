@@ -90,3 +90,13 @@ Summary video: https://www.youtube.com/watch?v=zdyftlnWm-E
 Good summary of what's done before as a catch-up on `head.jsx`, `page.jsx`, `layout.jsx`, and `(route-groups)`. Also, talked about the difference between server and client components. All of these conventions are within the experimental `app` directory.
 
 Also, didn't realize in vs code that you can write a nested page with its folder name: `folder-name/page-name.jsx`.
+
+# Day 8
+
+Interesting, looks like a fetch component that can be called directly on the server.
+
+Looks fairly isolated to test. Cool. So only absolute urls are allowed. Initially I thought it was because the client could resolve the relative url.
+
+In the default page, there's an pages/api/hello.js that gets automatically updated.
+
+https://beta.nextjs.org/docs/data-fetching/fundamentals
