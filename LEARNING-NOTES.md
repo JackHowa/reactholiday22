@@ -145,3 +145,13 @@ The nested layouts make these special-named files necessary. Chantastic says tha
 > In this way, route directories are like the modules of the Next app directory.
 >
 > This is new. And with new come some real oddities! Like the way layout files cascade but head files don't. There's a lot we have to figure out but I'm thrilled about these new visual conventions.
+
+# Day 14
+
+Async router recap: https://www.youtube.com/watch?v=rYPX_9Qs968
+
+Can use async Page.jsx for await data-fetching.
+
+Can compose your view failing with the not-found. The nested of layouts is kind of trippy so that you can handle fetching on a component level rather than a more global level. More on nested routing https://beta.nextjs.org/docs/routing/fundamentals
+
+# Day 15

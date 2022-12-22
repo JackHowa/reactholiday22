@@ -8,7 +8,7 @@ async function fetchUser(id) {
 		return undefined;
 	}
 
-	return res.json();
+	return await res.json();
 }
 
 export default async function HelloPage() {
