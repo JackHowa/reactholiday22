@@ -131,3 +131,9 @@ You can log out more information than just `digest` hash of the error message wi
 The reset param taken into the error component by default is useful.
 
 # Day 12
+
+A special `not-found.jsx` file is needed for 404s. Weird that you invoke the `notFound` import rather than return.
+
+> Note: notFound() does not require you to use return notFound() due to using the TypeScript never type.
+
+More info: https://beta.nextjs.org/docs/api-reference/notfound#notfound
