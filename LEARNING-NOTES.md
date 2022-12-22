@@ -137,3 +137,11 @@ A special `not-found.jsx` file is needed for 404s. Weird that you invoke the `no
 > Note: notFound() does not require you to use return notFound() due to using the TypeScript never type.
 
 More info: https://beta.nextjs.org/docs/api-reference/notfound#notfound
+
+# Day 13
+
+The nested layouts make these special-named files necessary. Chantastic says that he's found that in the making of sample apps.
+
+> In this way, route directories are like the modules of the Next app directory.
+>
+> This is new. And with new come some real oddities! Like the way layout files cascade but head files don't. There's a lot we have to figure out but I'm thrilled about these new visual conventions.
