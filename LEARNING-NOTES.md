@@ -155,3 +155,7 @@ Can use async Page.jsx for await data-fetching.
 Can compose your view failing with the not-found. The nested of layouts is kind of trippy so that you can handle fetching on a component level rather than a more global level. More on nested routing https://beta.nextjs.org/docs/routing/fundamentals
 
 # Day 15
+
+Adding a new app: https://github.com/JackHowa/pokemon-next-reactholiday22
+
+Created a list of pokemon. Didn't get the dynamic segments for next day.
