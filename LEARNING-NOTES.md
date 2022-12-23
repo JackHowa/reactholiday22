@@ -163,3 +163,17 @@ Created a list of pokemon. Didn't get the dynamic segments for next day.
 # Day 16
 
 Created dynamic segments with those special files. It's interesting the difference between not found vs error handling.
+
+# Day 17 - 21
+
+Added using Link, Image, and dynamic segments. Also, added a custom 404 page.
+
+Looks alright: https://pokemon-next-reactholiday22.vercel.app/
+
+Video recap: https://www.youtube.com/watch?v=wcPymhSyoxY
+
+Some duplication in the layout. But the next layout error of the dynamic hydration is cool that it shows a problem if you have invalid html. I had footer outside of the body tag.
+
+Overall, the special files with the loading seems really powerful for performance. The loading screen is lightning quick especially when using all Next stuff like Link.
+
+The image component is helpful and the config is great for security. I feel like handling image security is half the battle of performance and security. I know I've dealt with it in a problem before with previous company images.
