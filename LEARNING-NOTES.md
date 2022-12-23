@@ -177,3 +177,7 @@ Some duplication in the layout. But the next layout error of the dynamic hydrati
 Overall, the special files with the loading seems really powerful for performance. The loading screen is lightning quick especially when using all Next stuff like Link.
 
 The image component is helpful and the config is great for security. I feel like handling image security is half the battle of performance and security. I know I've dealt with it in a problem before with previous company images.
+
+Link component is firing off the requests as we scroll down the page and hover over the links. Server component data gets pre-fetched.
+
+Also, the redirect functionality with `next/navigation` is seamless. Feels a bit better than using the same list on the homepage as on the show pokemon page.
