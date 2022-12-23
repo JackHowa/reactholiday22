@@ -159,3 +159,7 @@ Can compose your view failing with the not-found. The nested of layouts is kind 
 Adding a new app: https://github.com/JackHowa/pokemon-next-reactholiday22
 
 Created a list of pokemon. Didn't get the dynamic segments for next day.
+
+# Day 16
+
+Created dynamic segments with those special files. It's interesting the difference between not found vs error handling.
